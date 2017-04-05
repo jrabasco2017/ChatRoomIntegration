@@ -152,6 +152,11 @@ GEM
       nokogiri (~> 1.6)
     rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.5)
+    rails_stdout_logging (0.0.5)
     railties (5.0.1)
       actionpack (= 5.0.1)
       activesupport (= 5.0.1)
@@ -193,7 +198,7 @@ GEM
     turbolinks (5.0.1)
       turbolinks-source (~> 5)
     turbolinks-source (5.0.0)
-    tzinfo (1.2.2)
+    tzinfo (1.2.3)
       thread_safe (~> 0.1)
     uglifier (3.0.0)
       execjs (>= 0.3.0, < 3)
@@ -220,10 +225,11 @@ DEPENDENCIES
   listen (= 3.0.8)
   minitest-reporters (= 1.1.9)
   paperclip
-  pg (= 0.18.4)
+  pg
   puma (= 3.4.0)
   rails (= 5.0.1)
   rails-controller-testing (= 0.1.1)
+  rails_12factor
   redis (~> 3.2)
   sass-rails (= 5.0.6)
   spreedly
